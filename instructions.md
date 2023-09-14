@@ -1,4 +1,4 @@
-# Detailed Instructions  
+## Detailed Submission Instructions  
   
 **Fill out and submit and issue**
   
@@ -36,3 +36,14 @@
     `base repository: colabfit/data-lake` `base: submit` &larr; `head repository: your-GitHub/data-lake` `compare: main`
 * Read through the pull request checklist and ensure you are prepared to submit
 * Click `Create pull request`
+  
+## File expectations
+  
+### Content
+Files should contain the data necessary to model atomic systems: atom types, atom coordinates, unit cell/lattice. They should also contain the values for calculated properties of the systems. For example properties, see [the current list of properties included in ColabFit](https://materials.colabfit.org/browse/property-definitions). We are most interested in files describing the relaxation trajectories of systems calculated at the quantum (e.g., CCSD) or DFT levels of theory.
+  
+### Format
+Files in the .extxyz format (e.g., as implemented by ASE) are the most convenient to ingest, though we are able to work with other formats, including CIF, npy/npz and JSON.
+  
+Files may be compressed using a common compression format (tar, zip). Please do not use unusual or proprietary compression formats. If compressing a directory, keep in mind that GitHub has an upper limit on file sizes. It may be better to upload a larger number of smaller files.
+  
