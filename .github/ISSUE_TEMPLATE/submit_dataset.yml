@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for using the ColabFit Exchange!
+        Thank you for using the ColabFit Exchange! If you are requesting (rather than submitting) a dataset, only the required (*) fields must be completed. However, filling in as much information as possible will make it more likely that the ColabFit team will review and process your request.
   # Contact Info
   - type: input
     id: name
@@ -66,8 +66,8 @@ body:
       label: File details
       description: Provide details about accessing the dataset
       placeholder: "ex. 150 zipped CIF files\nTotal size: 200 MB\nPython parsing script available on dataset GitHub repo"
-    validations:
-      required: true
+    # validations:
+    #   required: true
 
   # Calculations
   - type: dropdown
@@ -81,15 +81,15 @@ body:
         - CCSD
         - CCSD(T)
         - Other (provide method below)
-    validations:
-      required: true
+    # validations:
+    #   required: true
   - type: input
     id: method-if-other
     attributes:
       label: Method (other)
       description: If you selected Other, please enter level of theory
-    validations:
-      required: false
+    # validations:
+    #   required: false
 
   - type: dropdown
     id: software
@@ -105,22 +105,22 @@ body:
         - Quantum ESPRESSO
         - VASP
         - Other (provide software below)
-    validations:
-      required: true
+    # validations:
+    #   required: true
   - type: input
     id: software-if-other
     attributes:
       label: Software (other)
       description: "If you selected Other, please enter software used"
-    validations:
-      required: false
+    # validations:
+    #   required: false
   - type: input
     id: software-version
     attributes:
       label: Software version(s)
       description: Please enter software version, if known
-    validations:
-      required: false
+    # validations:
+    #   required: false
 
   - type: textarea
     id: additional-details
@@ -128,8 +128,8 @@ body:
       label: Additional details
       description: Please enter additional details of data computation, if known
       placeholder: ex. XC functional, basis set, plane wave cutoff value, k-point grid
-    validations:
-      required: false
+    # validations:
+    #   required: false
 
   # Properties
   - type: dropdown
@@ -153,8 +153,8 @@ body:
     attributes:
       label: Other/additional property
       description: "If using a property other than one from  <a href='https://materials.colabfit.org/browse/property-definitions'>the approved ColabFit list</a>, you should specify a property definition following the format shown <a href='https://github.com/gpwolfe/colabfit-data/blob/main/examples/example_property_definitions.py'> in the ColabFit standard </a>\nYou may upload a JSON file containing the property definition here"
-    validations:
-      required: false
+    # validations:
+    #   required: false
 
   - type: textarea
     id: property-details
@@ -162,8 +162,8 @@ body:
       label: Property details
       description: "Enter details for each property: units, per-atom, any additional details"
       placeholder: "ex. potential-energy: units=eV, per-atom=false"
-    validations:
-      required: true
+    # validations:
+    #   required: true
 
   # Configurations
   - type: input
@@ -172,15 +172,15 @@ body:
       label: Elements
       description: Enter elements as comma-separated list of chemical symbols
       placeholder: ex. C, H, O, N
-    validations:
-      required: true
+    # validations:
+    #   required: true
   - type: input
     id: num-configs
     attributes:
       label: Number of Configurations
       description: Enter number of configurations contained in dataset
-    validations:
-      required: false
+    # validations:
+    #   required: false
   - type: textarea
     id: config-names
     attributes:
@@ -208,8 +208,8 @@ body:
       label: Distribution license
       description: The license under which the content is distributed
       placeholder: ex. Creative Commons Zero
-    validations:
-      required: true
+    # validations:
+    #   required: true
 
   # Verify permission
   - type: checkboxes
