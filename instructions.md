@@ -33,7 +33,7 @@
     * You may need to find the `Contribute` button and click `Open pull request
 * Select the `submit` branch as your PR base
     * The bar above the submission template should look something like:
-    `base repository: colabfit/data-lake` `base: submit` &larr; `head repository: your-GitHub/data-lake` `compare: main`
+    `base repository: colabfit/data-lake` `base: main` &larr; `head repository: your-GitHub/data-lake` `compare: main`
 * Read through the pull request checklist and ensure you are prepared to submit
 * Click `Create pull request`
   
