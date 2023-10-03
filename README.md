@@ -14,7 +14,7 @@ To submit your own dataset:
 * Fill out the information template and submit the issue
 * Create a fork of the `main` branch of this repository
 * Upload your dataset files to a single directory on your fork
-* Submit a pull request to the `submit` branch of this repository
+* Submit a pull request to the `main` branch of this repository
 
 Once you have created a dataset submission or request, we will correspond with you through the GitHub issue or pull request interface.
 
