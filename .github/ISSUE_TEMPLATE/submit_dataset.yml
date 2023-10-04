@@ -10,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please change the title of this Issue to `[Dataset submission] Your-dataset-name` if submitting your own data files; otherwise change to `[Dataset request] Your-dataset-name`
+        Please change the title of this Issue to `[Dataset submission] Your-dataset-name` if submitting your own data files; otherwise change to `[Dataset request] Dataset-name`
   - type: markdown
     attributes:
       value: |
