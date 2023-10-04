@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for using the ColabFit Exchange!  \nPlease change the title of this Issue to `[Dataset submission] Your-dataset-name` (if submitting your own data files) or `[Dataset request] Your-dataset-name`  \nIf you are requesting (rather than submitting) a dataset, only the required (*) fields must be completed. However, filling in as much information as possible will make it more likely that the ColabFit team will review and process your request.
+        "Thank you for using the ColabFit Exchange!  \nPlease change the title of this Issue to `[Dataset submission] Your-dataset-name` (if submitting your own data files) or `[Dataset request] Your-dataset-name`  \nIf you are requesting (rather than submitting) a dataset, only the required (*) fields must be completed. However, filling in as much information as possible will make it more likely that the ColabFit team will review and process your request."
   # Contact Info
   - type: input
     id: name
