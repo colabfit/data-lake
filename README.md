@@ -26,4 +26,4 @@ Once you have created a dataset submission or request, we will correspond with y
 
 
 
-For more information about ColabFit, please contact Prof. Ellad Tadmor at support@colabfit.org.
+For more information about ColabFit, please contact Prof. Ellad Tadmor and Prof. Stefano Martiniani at support@colabfit.org.
