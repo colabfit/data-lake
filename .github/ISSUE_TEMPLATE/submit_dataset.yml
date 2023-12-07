@@ -50,7 +50,7 @@ body:
       placeholder: ex. John B. Smith, Joan L. Smith
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: pub-link
     attributes:
       label: Publication link
@@ -58,7 +58,7 @@ body:
       placeholder: https://www.example.com/
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: data-link
     attributes:
       label: Data link
