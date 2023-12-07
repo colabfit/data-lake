@@ -51,13 +51,29 @@ body:
     validations:
       required: true
   - type: textarea
-    id: links
+    id: pub-link
     attributes:
-      label: Links
-      description: Provide links to dataset files and related publications
+      label: Publication link
+      description: Provide a link to the primary related publication
       placeholder: https://www.example.com/
     validations:
-      required: true
+      required: false
+  - type: textarea
+    id: data-link
+    attributes:
+      label: Data link
+      description: Provide a link to data files
+      placeholder: https://www.example.com/
+    validations:
+      required: false
+  - type: textarea
+    id: other-links
+    attributes:
+      label: Additional links
+      description: Provide any additional pertinent links (i.e. GitHub repositories)
+      placeholder: https://www.example.com/
+    validations:
+      required: false
   - type: textarea
     id: dataset-description
     attributes:
