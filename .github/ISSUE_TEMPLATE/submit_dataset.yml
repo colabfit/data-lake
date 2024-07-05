@@ -172,8 +172,7 @@ body:
         - Potential energy
         - Other/additional
 
-
-  - type: textarea
+  - type: input
     id: energy-conjugate-w-forces
     attributes:
       label: Energy field conjugate with forces
