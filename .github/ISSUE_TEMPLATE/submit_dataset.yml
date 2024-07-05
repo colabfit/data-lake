@@ -172,6 +172,14 @@ body:
         - Potential energy
         - Other/additional
 
+
+  - type: textarea
+    id: energy-conjugate-w-forces
+    attributes:
+      label: Energy field conjugate with forces
+      description: "If atomic forces are present, please specify the field or key name for the energy from which they are derived"
+      placeholder: "ex. free-energy"
+
   - type: textarea
     id: property-additional
     attributes:
